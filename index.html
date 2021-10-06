@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8"/>
     <title>Run Buddy</title>
     <link rel="stylesheet" href="./assets/css/style.css"
 </head>
+
 <body>
-<!-- navigation -->
-<header>
-    <h1>
-        <a href="/">RUN BUDDY</a> 
+    <!-- navigation -->
+    <header>
+         <h1>
+            <a href="/">RUN BUDDY</a> 
     </h1>
     <nav>
- <!-- Unordered list elements -->
-    <ul>
-        <!-- List item element-->
-        <li>
+        <!-- Unordered list elements -->
+         <ul>
+             <!-- List item element-->
+            <li>
             <!-- Anchor element -->
             <a href="#what-we-do">What We Do</a>
         </li>
@@ -34,9 +36,9 @@
 
 <!-- hero/jumbotron -->
 <section class="hero">
-    <div>
-        <h3>Get Started Today</h3>
-        <p>Fill out this form and one of our trainers will schedule a consult</p>
+    <div class="hero-form">
+    <h3>Get Started Today</h3>
+    <p>Fill out this form and one of our trainers will schedule a consult</p>
     <!-- add form element-->
     <form>
         <label for="name">Enter full name</label>
@@ -52,8 +54,6 @@
             <input type="radio" name="trainer-confirm" id="trainer-no" />
             <label for="trainer-no">No</label>
         </p>
-    </form>
-    <form>
         <p>
             <label for="checkbox">
                 I acknowledge that I am at least 18 years of age.
@@ -66,15 +66,49 @@
     </form>
     </div>
 </section>
+
 <!-- "what we do" section -->
-<section>
+<section id="what-we-do">
     <h2>What We Do</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+         tempor incididunt ut labore et dolore magna aliqua. Fermentum iaculis 
+         eu non diam.
+    </p>
 </section>
 <!-- end hero -->
 
 <!-- "what you do" section-->
-<section>
+<section id="what-you-do">
     <h2>What You Do</h2>
+
+<div>
+    <!-- insert this img element -->
+    <img src="./assets/images/step-1.svg" alt="" />
+    <h3>Step 1: Fill Out The Form Above</h3>
+    <p>You're already here, so why not?</p>
+</div>
+
+<div>
+    <!-- insert this img element -->
+    <img src="./assets/images/step-2.svg" alt="" />
+    <h3>Step 2: Consult With One Of Our Trainers</h3>
+    <p>Are you here to build muscle, lose weight, or just feel good?</p>
+</div>
+
+<div>
+    <!-- insert this img element -->
+    <img src="./assets/images/step-3.svg" alt="" />
+    <h3>Step 3: Get Running.</h3>
+    <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+</div>
+
+<div>
+    <!-- insert this img element -->
+    <img src="./assets/images/step-4.svg" alt="" />
+    <h3>Step 4: See Results.</h3>
+    <p>Bi-weekly check-ins with your trainer will keep you focused.</p>
+</div>
 </section>
 
 <!-- "what you do" section-->
